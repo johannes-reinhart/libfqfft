@@ -12,6 +12,7 @@
 #ifndef BASIS_CHANGE_HPP_
 #define BASIS_CHANGE_HPP_
 
+#include <stddef.h>
 #include <vector>
 
 namespace libfqfft {

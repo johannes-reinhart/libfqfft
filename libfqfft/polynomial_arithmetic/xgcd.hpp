@@ -12,6 +12,7 @@
 #ifndef XGCD_HPP_
 #define XGCD_HPP_
 
+#include <stddef.h>
 #include <vector>
 
 namespace libfqfft {

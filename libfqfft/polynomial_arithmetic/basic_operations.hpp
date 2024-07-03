@@ -13,6 +13,7 @@
 #ifndef BASIC_OPERATIONS_HPP_
 #define BASIC_OPERATIONS_HPP_
 
+#include <stddef.h>
 #include <vector>
 
 namespace libfqfft {

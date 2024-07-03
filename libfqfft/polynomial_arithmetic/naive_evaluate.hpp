@@ -12,6 +12,7 @@
 #ifndef NAIVE_EVALUATE_HPP_
 #define NAIVE_EVALUATE_HPP_
 
+#include <stddef.h>
 #include <vector>
 
 #include <libfqfft/tools/exceptions.hpp>
