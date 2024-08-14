@@ -76,8 +76,8 @@ if ("${IS_LIBFQFFT_PARENT}")
     evaluation_domain_test
     EXCLUDE_FROM_ALL
 
-    tests/init_test
-    tests/evaluation_domain_test
+    tests/init_test.cpp
+    tests/evaluation_domain_test.cpp
   )
   target_link_libraries(
     evaluation_domain_test
@@ -96,8 +96,8 @@ if ("${IS_LIBFQFFT_PARENT}")
     polynomial_arithmetic_test
     EXCLUDE_FROM_ALL
 
-    tests/init_test
-    tests/polynomial_arithmetic_test
+    tests/init_test.cpp
+    tests/polynomial_arithmetic_test.cpp
   )
   target_link_libraries(
     polynomial_arithmetic_test
@@ -116,8 +116,8 @@ if ("${IS_LIBFQFFT_PARENT}")
     kronecker_substitution_test
     EXCLUDE_FROM_ALL
 
-    tests/init_test
-    tests/kronecker_substitution_test
+    tests/init_test.cpp
+    tests/kronecker_substitution_test.cpp
   )
   target_link_libraries(
     kronecker_substitution_test
